@@ -2,16 +2,16 @@
 
 Understanding lifestyle behaviors and their association with health outcomes is an important step toward evidence-based public health decision-making. This project explores health survey data to identify behavioral patterns, evaluate factors associated with hypertension risk, and generate actionable insights through statistical analysis.
 
-# Project Overview
-## Dataset
+## Project Overview
+### Dataset
 This project utilized the China Health and Nutrition Survey (CHNS) dataset, which contains demographic information, dietary habits, lifestyle behaviors, physical activity, and health conditions of urban residents.
 
 The dataset served as the foundation for investigating how different lifestyle factors contribute to health outcomes and for identifying behavioral patterns among different population groups.
 
-## Project Objectives
+### Project Objectives
 The Health Behavior Analytics project aims to gain actionable insights into resident behavior and lifestyle patterns within the context of the health survey dataset. The primary objective of this project was to understand how lifestyle behaviors are associated with physical health outcomes.
 
-## Exploration Questions
+### Exploration Questions
 This project aimed to answer several key questions:
 
 - Which lifestyle factors are most closely associated with hypertension risk?
@@ -19,7 +19,7 @@ This project aimed to answer several key questions:
 - Are there distinct behavioral groups among urban residents?
 - What insights can statistical analysis provide for understanding population health?
 
-## Tools and Technologies
+### Tools and Technologies
 The project utilized the following tools and analytical methods:
 
 - **Python:** Data preprocessing and exploratory analysis.
@@ -28,7 +28,7 @@ The project utilized the following tools and analytical methods:
 
 Together, these tools enabled a complete analytical workflow from data preparation to statistical modeling and interpretation.
 
-# Approach
+## Approach
 1. Collected and prepared the CHNS health survey dataset using Python and Excel, performing data cleaning, missing value handling, and variable transformation to obtain an analysis-ready dataset.
 2. Built a dietary behavior scoring framework using Principal Component Analysis (PCA), reducing multiple dietary indicators into a comprehensive health behavior score for subsequent statistical analysis.
 3. Performed descriptive statistical analysis and visualization on the comprehensive dietary scores, generating summary statistics and distribution plots to evaluate the overall dietary behavior of urban residents.
@@ -36,7 +36,7 @@ Together, these tools enabled a complete analytical workflow from data preparati
 5. Developed a Binary Logistic Regression model to evaluate the associations between demographic characteristics, lifestyle behaviors, and hypertension risk, producing interpretable risk estimates for each factor.
 6. Performed K-means clustering to segment residents into different behavioral groups based on lifestyle characteristics, generating user profiles with distinct health behavior patterns and corresponding health recommendations for each group.
 
-# Results
+## Results
 **Diet Quality Analysis：**
 The analysis combined nine dietary indicators into a single composite score, providing an overall measure of residents' diet quality. The score distribution showed that dietary quality was generally low and tightly concentrated, with an average score of **0.3599**, indicating considerable room for improvement.
 
